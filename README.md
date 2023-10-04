@@ -14,7 +14,7 @@
 
 ## About
 
-Created by David Guest, Danny Nash, Kevin Reisch, and Andrew Bissel. This application enables users to convert hand-drawn organic chemistry molecules into digital copies. Even if the handwriting is challenging to decipher, a machine learning model will adjust it to produce recognizable characters in the final digital copy. The README which will provide instructions and accompanying pictures, will be finalized on 10/5/2023 to guide users in making the application executable on their machine.
+Created by David Guest, Danny Nash, Kevin Reisch, and Andrew Bissel. This application enables users to convert hand-drawn organic chemistry molecules into digital copies. Even if the handwriting is challenging to decipher, a machine learning model will adjust it to produce recognizable characters in the final digital copy.
 
 ## Prerequisites
 
@@ -69,6 +69,8 @@ To run the application:
 
 ## User Manual
 
+- All atoms placed on the canvas are moveable even when connected through bonds using a click-and-drag motion
+  
 - At any point if there is an issue such as, not enough electrons to form a certain bond, it will be displayed in the lower textbox with the exact issue. (Here was an example of trying to form a single bond between the carbon "C" and the alone hydrogen "H")
 
 <p align="center">
