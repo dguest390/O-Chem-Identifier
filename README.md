@@ -31,6 +31,9 @@ To run the application:
 
 1. Clone this repository to GitHub Desktop. Clone to a path that will be easy to access, e.g C:\Users\dguest390\Documents\O-Chem-Identifier
 
+<p align="center">
+  <img width="250" src="clone_pic.png" alt="Clone Picture">
+
 // picture here to show clone button
 
 2. In GitHub Desktop open the application in Visual Studio Code
