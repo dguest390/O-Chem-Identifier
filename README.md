@@ -30,30 +30,42 @@ Below are the tools needed to create and run this application:
 To run the application:
 
 1. Clone this repository to GitHub Desktop. Clone to a path that will be easy to access, e.g C:\Users\dguest390\Documents\O-Chem-Identifier
-
 <p align="center">
-  <img width="250" src="clone_pic.png" alt="Clone Picture">
-
-// picture here to show clone button
+  <img width="1250" src="media\clone_pic.png" alt="Clone Picture">
+</p>
 
 2. In GitHub Desktop open the application in Visual Studio Code
-
-// picture here to show "open in VS Code button"
+<p align="center">
+  <img width="1250" src="media\VSCode.png" alt="Open with VSCode">
+</p>
 
 3. In VS Code use the top navigation bar to click terminal - select new terminal
+<p align="center">
+  <img width="1250" src="media\new_terminal.png" alt="New Terminal">
+</p>
 
-// picture here to show terminal button
 
 4. Make sure the path in the terminal is set to the location of where the application is on your machine, e.g. C:\Users\dguest390\Documents\O-Chem-Identifier. If it is not there, change directories to the correct path [How To Change](https://www.howtogeek.com/659411/how-to-change-directories-in-command-prompt-on-windows-10/)
 
-5. Create a Virtual Environment to execute the application. In the terminal run this command:
-   // code blocks to show... python -m venv <ochem>... ochem\Scripts\activate
+5. Create a Virtual Environment to execute the application. In the terminal run this command to create an environment called "ochem":
+<p>
+<code>python -m venv ochem</code>
+</p>
 
-6. Install these packages in the terminal by typing:
-   // code block to show... pip install pillow opencv-python keras tensorflow matplotlib imutils
+6. Run the Virtual Environment with this command:
+<p>
+  <code>ochem\Scripts\activate</code>
+</p>
+  
+6. Install these packages into the new V.E. by entering this command in the terminal:
+<p>
+  <code>pip install pillow opencv-python keras tensorflow matplotlib imutils</code>
+</p>
 
 7. Execute the program in the terminal by entering:
-   // code block to show... python main.py
+<p>
+  <code>python main.py</code>
+</p>
 
 ## User Manual
 
