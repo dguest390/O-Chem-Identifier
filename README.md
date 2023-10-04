@@ -69,40 +69,50 @@ To run the application:
 
 ## User Manual
 
-//picture to show layout of running application
+- At any point if there is an issue such as, not enough electrons to form a certain bond, it will be displayed in the lower textbox with the exact issue. (Here was an example of trying to form a single bond between the carbon "C" and the alone hydrogen "H")
 
-- At any point if there is an issue such as, not enough electrons to form a certain bond, it will be displayed in the lower textbox the exact issue
-
-// picture of textbox
+<p align="center">
+  <img width="1000" src="media\textbox_error.png" alt="Textbox Error">
+</p>
 
 - Top navigation bar allows atoms and polyatomic atoms to be selceted and placed on the canvas
 
-// either picture of atoms placed on canvas or short video showing the process
+<p align="center">
+  <img width="1000" src="media\place_atoms.png" alt="Place Atoms">
+</p>
 
 #### Side Navigation Bar
 
 - Single, Double, Triple - allow bonds to be created between atoms that already exist on the canvas
 
-// picture of bonds created or short video
+<p align="center">
+  <img width="1000" src="media\bonds.png" alt="Bonds">
+</p>
 
-- Delete - allow bonds or atoms/polyatomic atoms to be deleted one by one
-
-// picure or video
+- Delete - allow bonds or atoms/polyatomic atoms to be deleted one at a time
 
 - Clear - clear the entire canvas - a conformation box will appear to make sure the action was intended
 
-// picture or video
+<p align="center">
+  <img width="1000" src="media\clear.png" alt="Clear">
+</p>
 
 - Import - import an image on your local device of a hand-drawn organic chemistry molecule. Once selected the option to "crop" will appear so a specific molecule can be selected
 
-// pic or vid
+<p align="center">
+  <img width="1000" src="media\crop.png" alt="Crop">
+</p>
 
-- Translate - will translate the recently "cropped" hand-drawn molecule into a digital version
+- Translate Image - will translate the recently "cropped" hand-drawn molecule into a digital version
 
-// pic or vid
+<p align="center">
+  <img width="1000" src="media\digital_copy.png" alt="Digital Copy">
+</p>
 
 - Photo - requires this application to be running on a raspberry pi with a camera setup and touch display screen. This is currently outside the purview of this tutorial
 
+- Exit - allows the user to end the application entirely
+
 ## Outside Cases
 
-// respond to issues with certain molecules not translating perfectly and how we would work to fix them for future updates
+- There are images of hand-drawn molecules that do not translate well when run through the machine learning model. This will require future work to adjust the model.
