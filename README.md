@@ -115,6 +115,6 @@ To run the application:
 
 - Exit - allows the user to end the application entirely
 
-## Outside Cases
+## Edge Cases
 
 - There are images of hand-drawn molecules that do not translate well when run through the machine learning model. This will require future work to adjust the model.
