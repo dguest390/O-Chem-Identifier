@@ -7,7 +7,7 @@
     <li><a href="#prerequisites">Prerequisites</a></li>
     <li><a href="#quick-start">Quick Start</a></li>
     <li><a href="#user-manual">User Manual</a></li>
-    <li><a href="#outside-cases">Outside Cases</a></li>
+    <li><a href="#edge-cases">Edge Cases</a></li>
   </ol>
 </details>
  
